@@ -1,9 +1,12 @@
 import "./App.css";
 
+import Weather from "./Components/Weather/Weather";
+
 function App() {
   return (
     <>
-      <h1 className="text-red-700">Hello</h1>
+      <Weather />
+     
     </>
   );
 }
